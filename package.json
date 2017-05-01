@@ -30,6 +30,7 @@
     "babel-preset-stage-1": "^6.5.0",
     "classnames": "^2.2.5",
     "html-webpack-plugin": "^2.22.0",
+    "prop-types": "^15.5.8",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "webpack": "^1.13.1",

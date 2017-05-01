@@ -2,11 +2,12 @@ import React from 'react'
 import assign from 'object-assign'
 import hoistNonReactStatics from 'hoist-non-react-statics'
 import getComponentName from './_internal/getComponentName'
+import PropTypes from 'prop-types'
 
 const makeWrapper = (middleware) => (WrappedComponent) => {
   class FormWrapper extends React.Component {
     static propTypes = {
-      initialModel: React.PropTypes.object,
+      initialModel: PropTypes.object,
     }
 
     constructor (props, ctx) {
